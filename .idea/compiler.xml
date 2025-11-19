@@ -9,8 +9,5 @@
         <module name="aiEMR" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo99" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
