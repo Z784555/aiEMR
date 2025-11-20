@@ -4,12 +4,14 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.time.LocalDateTime;
 
 /**
  * 电子病历实体类
  */
+@Data
 @TableName("emr")
 public class EMR {
         @TableId(type = IdType.AUTO, value = "id")
