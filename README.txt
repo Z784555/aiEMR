@@ -1,4 +1,4 @@
-小组成员：zhb MZHh
+小组成员：zhb MZHhh
 1、aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java
 设置提示词
 
