@@ -6,16 +6,9 @@ import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.openai.OpenAiChatModel;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Component;
 
-import com.edu.neu.service.PromptTemplateService;
-import static com.edu.neu.cfg.AIConfig.FLOW_PROMPT;
-import static com.edu.neu.cfg.AIConfig.GNE_PROMPT;
-import static com.edu.neu.cfg.AIConfig.RECORD_PROMPT;
 import static com.edu.neu.cfg.AIConfig.SYSTEM_PROMPT;
 
 @RestController
@@ -23,12 +16,9 @@ import static com.edu.neu.cfg.AIConfig.SYSTEM_PROMPT;
 @CrossOrigin
 public class EMRController {
     private final ChatClient chatClient;
-    private final PromptTemplateService promptTemplateService;
     public EMRController(OpenAiChatModel  openAiChatModel,
                          ChatMemory chatMemory,
-                         DateTimeTools dateTimeTools,
-                         PromptTemplateService promptTemplateService) {
-        this.promptTemplateService = promptTemplateService;
+                         DateTimeTools dateTimeTools) {
         this.chatClient = ChatClient.builder(openAiChatModel)
                 .defaultSystem(SYSTEM_PROMPT)
                 .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
@@ -43,8 +33,8 @@ public class EMRController {
      * 状态：未完成
      */
     @GetMapping("/flow")
-    public String chatFlow(@RequestParam(value = "prompt", required = false, defaultValue = "") String prompt) {
-        return invokeChat(FLOW_PROMPT, prompt);
+    public String chatFlow() {
+        return null;
     }
 
     /**
@@ -53,8 +43,8 @@ public class EMRController {
      * 状态：未完成
      */
     @GetMapping("/record")
-    public String chatRecord(@RequestParam(value = "prompt", required = false, defaultValue = "") String prompt) {
-        return invokeChat(RECORD_PROMPT, prompt);
+    public String chatRecord() {
+        return null;
     }
 
     /**
@@ -64,17 +54,7 @@ public class EMRController {
      * 状态：未完成
      */
     @GetMapping("/gne")
-    public String chatGne(@RequestParam(value = "prompt", required = false, defaultValue = "") String prompt) {
-        return invokeChat(GNE_PROMPT, prompt);
-    }
-
-    private String invokeChat(String taskPrompt, String doctorInput) {
-        String systemPrompt = SYSTEM_PROMPT + "\n" + taskPrompt;
-        String userMessage = promptTemplateService.resolvePrompt(doctorInput);
-        return chatClient.prompt()
-                .system(systemPrompt)
-                .user(userMessage)
-                .call()
-                .content();
+    public String chatGne() {
+        return null;
     }
 }
