@@ -1,6 +1,7 @@
 package com.edu.neu.controller;
 
 import com.edu.neu.tc.DateTimeTools;
+import com.edu.neu.tc.EMRTools;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
@@ -18,7 +19,8 @@ public class EMRController {
     private final ChatClient chatClient;
     public EMRController(OpenAiChatModel  openAiChatModel,
                          ChatMemory chatMemory,
-                         DateTimeTools dateTimeTools) {
+                         DateTimeTools dateTimeTools,
+                         EMRTools emrTools) {
         this.chatClient = ChatClient.builder(openAiChatModel)
                 .defaultSystem(SYSTEM_PROMPT)
                 .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())

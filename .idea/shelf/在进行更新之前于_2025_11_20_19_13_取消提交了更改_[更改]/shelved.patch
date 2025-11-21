@@ -1,0 +1,16 @@
+Index: README.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>小组成员：zhb mzh\r\n1、aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java\r\n设置提示词\r\n\r\n2、aiEMR/src/main/java/com/edu/neu/controller/EMRController.java\r\n补全几个大模型方法\r\n\r\n3、EMR实体的构造方法补全，有关它的service、tools设置，将病历导入数据库\r\n\r\n4、微服务引入其他子系统（挂号、处方）数据，如果无响应，采用默认数据
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.txt b/README.txt
+--- a/README.txt	(revision 6dc27c4b5631f833054fe278088fe7a83f6dd942)
++++ b/README.txt	(date 1763637195189)
+@@ -1,4 +1,4 @@
+-小组成员：zhb mzh
++小组成员：zhb、mzh、
+ 1、aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java
+ 设置提示词
+ 

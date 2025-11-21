@@ -116,4 +116,28 @@ public class EMR {
          */
         @TableField ("update_time")
         private LocalDateTime updateTime;
+
+    public EMR(Long id, String patientName, String gender, Integer age, String phone, String address, String visitNo, String deptName, LocalDateTime visitTime, String visitType, String mainComplaint, String presentIllness, String pastIllness, String allergyHistory, String diagnosis, String prescription, String suggestion, String doctorName, String signatureUrl, LocalDateTime createTime, LocalDateTime updateTime) {
+        this.id = id;
+        this.patientName = patientName;
+        this.gender = gender;
+        this.age = age;
+        this.phone = phone;
+        this.address = address;
+        this.visitNo = visitNo;
+        this.deptName = deptName;
+        this.visitTime = visitTime;
+        this.visitType = visitType;
+        this.mainComplaint = mainComplaint;
+        this.presentIllness = presentIllness;
+        this.pastIllness = pastIllness;
+        this.allergyHistory = allergyHistory;
+        this.diagnosis = diagnosis;
+        this.prescription = prescription;
+        this.suggestion = suggestion;
+        this.doctorName = doctorName;
+        this.signatureUrl = signatureUrl;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+    }
 }

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cd53c66-f25a-4852-b32d-7cf41bf533cc" name="更改" comment="EMRTools">
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/controller/EMRController.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/controller/EMRController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/entity/EMR.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/entity/EMR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/EMRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/EMRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/impl/EMRServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/impl/EMRServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Z784555&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Z784555/aiEMR.git&quot;,
+    &quot;accountId&quot;: &quot;6e5d1be5-f090-43e2-a7cc-ce1c9d1ff6c7&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="35g1mr4glZqiWYHnkxQhD32QnWt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5cd53c66-f25a-4852-b32d-7cf41bf533cc" name="更改" comment="" />
+      <created>1763517067755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763517067755</updated>
+      <workItem from="1763517075100" duration="314000" />
+      <workItem from="1763519612639" duration="2206000" />
+      <workItem from="1763634025519" duration="10988000" />
+      <workItem from="1763721956276" duration="1714000" />
+    </task>
+    <task id="LOCAL-00001" summary="README.txt">
+      <option name="closed" value="true" />
+      <created>1763520274652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763520274652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="README.txt任务4">
+      <option name="closed" value="true" />
+      <created>1763520871230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763520871230</updated>
+    </task>
+    <task id="LOCAL-00003" summary="小组成员zhb">
+      <option name="closed" value="true" />
+      <created>1763634979924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763634979925</updated>
+    </task>
+    <task id="LOCAL-00004" summary="构造方法">
+      <option name="closed" value="true" />
+      <created>1763637285698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763637285698</updated>
+    </task>
+    <task id="LOCAL-00005" summary="EMRTools">
+      <option name="closed" value="true" />
+      <created>1763645492588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763645492588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="aiEMR/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README.txt" />
+    <MESSAGE value="README.txt任务4" />
+    <MESSAGE value="小组成员zhb" />
+    <MESSAGE value="构造方法" />
+    <MESSAGE value="EMRTools" />
+    <option name="LAST_COMMIT_MESSAGE" value="EMRTools" />
+  </component>
+</project>
