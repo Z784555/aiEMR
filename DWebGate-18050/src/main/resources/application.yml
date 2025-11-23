@@ -1,0 +1,27 @@
+server:
+  port: 18050
+spring:
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+
+    gateway:
+      routes:
+        - id: gateway-route
+          uri: lb://web-consumer
+          predicates:
+              - Path=/web-api/**
+          filters:
+            - StripPrefix=1
+            - name: RouteLogging
+              args:
+                  message: 我爱北京天安门
+      discovery:
+        locator:
+          enabled: true
+  application:
+    name: web-gate
+

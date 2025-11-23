@@ -1,0 +1,39 @@
+server:
+  port: 18040
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: web-consumer
+          uri: lb://web-consumer # lb 负载均衡; //web-consumer 服务名
+          predicates:
+#         http://localhost:18040/web-consumer/f/call
+#            - http://localhost:18071/f/call
+#          httphttp://localhost:18071/f/call://localhost:18071/web-consumer/f/call
+#
+              - Path=/web-consumer/**
+          filters:
+            - StripPrefix=1
+#        - id: dog
+#          uri: https://www.baidu.com/
+#          predicates:
+##            http://127.0.0.1:18040/s
+##            https://www.baidu.com/s
+#            - Path=/s
+#        - id: jd
+##          https://www.jd.com/jd
+#          uri: https://www.jd.com/
+#          predicates:
+#            - Path=/jd
+#          filters:
+#            - StripPrefix=1
+
+
+  application:
+    name: web-gateway
