@@ -13,6 +13,7 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>aiEMR</module>
+        <module>gateway</module>
     </modules>
 
     <properties>

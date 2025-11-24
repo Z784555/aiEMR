@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import static com.edu.neu.cfg.AIConfig.SYSTEM_PROMPT;
 
 @RestController
-@RequestMapping("/emr")
+
 @CrossOrigin
 public class EMRController {
     private final ChatClient chatClient;
