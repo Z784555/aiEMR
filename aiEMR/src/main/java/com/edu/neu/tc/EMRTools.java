@@ -5,11 +5,12 @@ import com.edu.neu.service.EMRService;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
-@Configuration
+@Component
 public class EMRTools {
     @Autowired
     private EMRService emrService;
@@ -37,6 +38,7 @@ public class EMRTools {
             @ToolParam(description = "医嘱建议，可选，医师给出的后续治疗/护理建议") String suggestion,
             @ToolParam(description = "医师手签图片URL，可选，医师电子签名的图片存储地址") String signatureUrl
     ){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         Long id = emrService.addEMR(new EMR(
                 null,  // id（自增主键，无需传入）
                 patientName,
@@ -46,7 +48,7 @@ public class EMRTools {
                 address,
                 visitNo,
                 deptName,
-                LocalDateTime.parse(visitTime),
+                LocalDateTime.parse(visitTime,formatter),
                 visitType,
                 mainComplaint,
                 presentIllness,
@@ -60,12 +62,16 @@ public class EMRTools {
                 null,  // createTime（数据库默认生成，无需传入）
                 null   // updateTime（数据库默认更新，无需传入）
         ));
-        return ""+id;
+        if (id > 0) {
+            // 保存成功后，emr 对象的 id 字段已被 MyBatis-Plus 填充
+            return ""+id;
+        } else {
+            // 处理保存失败的情况，可以抛出异常或返回 null
+            throw new RuntimeException("保存 EMR 失败");
+        }
     }
 
-    @Tool(description = "保存患者就诊记录及病历信息到数据库，返回唯一就诊记录ID。" +
-            "必须收集：患者姓名、性别、年龄、就诊号、就诊科室、就诊时间、就诊类型、主诉、医师姓名；" +
-            "可选收集：联系电话、家庭住址、现病史、既往史、过敏史、诊断结果、处方、医嘱建议、医师手签URL")
+    @Tool(description = "更新患者就诊记录及病历信息到数据库，返回唯一就诊记录ID。")
     public String updateEMR(
             @ToolParam(description = "病历id") Long id,
             @ToolParam(description = "患者姓名，必填，如：蔡志军") String patientName,
@@ -110,6 +116,12 @@ public class EMRTools {
                 null,  // createTime（数据库默认生成，无需传入）
                 null   // updateTime（数据库默认更新，无需传入）
         ));
-        return ""+Id;
+        if (Id > 0) {
+            // 保存成功
+            return ""+id;
+        } else {
+            // 处理保存失败的情况，可以抛出异常或返回 null
+            throw new RuntimeException("保存 EMR 失败");
+        }
     }
 }

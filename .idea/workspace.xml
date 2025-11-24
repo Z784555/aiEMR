@@ -4,16 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cd53c66-f25a-4852-b32d-7cf41bf533cc" name="更改" comment="EMRTools">
+    <list default="true" id="5cd53c66-f25a-4852-b32d-7cf41bf533cc" name="更改" comment="合并分支">
+      <change afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/controller/EMRController.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/controller/EMRController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/entity/EMR.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/entity/EMR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/EMRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/EMRService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/impl/EMRServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/impl/EMRServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/tc/EMRTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/tc/EMRTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/cfg/AIConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/cfg/AIConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/controller/EMRController.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/controller/EMRController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/entity/EMR.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/entity/EMR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/mapper/EMRMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/mapper/EMRMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/EMRService.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/EMRService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/impl/EMRServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/impl/EMRServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/DateTimeTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/DateTimeTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/EMRTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/EMRTools.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +49,10 @@
     &quot;accountId&quot;: &quot;6e5d1be5-f090-43e2-a7cc-ce1c9d1ff6c7&quot;
   }
 }</component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -38,15 +61,27 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="35g1mr4glZqiWYHnkxQhD32QnWt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #3.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.aiEMRApp.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -54,10 +89,58 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="generated-requests | #1" value="STOPPED" />
+              <entry key="generated-requests | #2" value="STOPPED" />
+              <entry key="generated-requests | #3" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.aiEMRApp">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#3" index="3" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="aiEMRApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="aiEMR" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.neu.aiEMRApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.neu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 请求.generated-requests | #1" />
+        <item itemvalue="HTTP 请求.generated-requests | #2" />
+        <item itemvalue="Spring Boot.aiEMRApp" />
+        <item itemvalue="HTTP 请求.generated-requests | #3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,6 +148,9 @@
         <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="逻辑" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -76,7 +162,8 @@
       <workItem from="1763517075100" duration="314000" />
       <workItem from="1763519612639" duration="2206000" />
       <workItem from="1763634025519" duration="10988000" />
-      <workItem from="1763721956276" duration="1714000" />
+      <workItem from="1763721956276" duration="16452000" />
+      <workItem from="1763887097785" duration="17811000" />
     </task>
     <task id="LOCAL-00001" summary="README.txt">
       <option name="closed" value="true" />
@@ -118,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763645492588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="合并分支">
+      <option name="closed" value="true" />
+      <created>1763723796757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763723796757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +248,7 @@
     <MESSAGE value="小组成员zhb" />
     <MESSAGE value="构造方法" />
     <MESSAGE value="EMRTools" />
-    <option name="LAST_COMMIT_MESSAGE" value="EMRTools" />
+    <MESSAGE value="合并分支" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并分支" />
   </component>
 </project>

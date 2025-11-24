@@ -26,6 +26,7 @@ public class EMRController {
                 .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
                 .defaultAdvisors(new SimpleLoggerAdvisor())
                 .defaultTools(dateTimeTools)
+                .defaultTools(emrTools)
                 .build();
     }
 
@@ -56,7 +57,14 @@ public class EMRController {
      * 状态：未完成
      */
     @GetMapping("/gne")
-    public String chatGne() {
-        return null;
+    public String chatGne(
+            @RequestParam(value = "msg") String msg,
+            @RequestParam(value = "chatId" ,defaultValue = "neu.edu.cn") String chatId
+    ) {
+        return this.chatClient.prompt()
+                .user(msg)  // 提交给大模型的问题
+                .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, chatId))
+                .call()
+                .content();
     }
 }

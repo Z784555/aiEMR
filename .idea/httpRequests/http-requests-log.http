@@ -1,0 +1,372 @@
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T225227.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T225144.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T223759.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T223633.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T222303.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T221006.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=重新保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T220914.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=数据库后台没有显示，传入失败，请重新保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T220239.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T220038.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T215756.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T215333.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T214741.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T214654.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T211702.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T211309.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=再检查一遍&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T211019.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=确认保存&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T210743.200.txt
+
+###
+
+GET http://localhost:19090/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T210512.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T170508.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T170003.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T163551.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=刚才创建时超时无响应，你觉得是哪里有问题&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T154114.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=我是说张敏的病历&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T153923.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=可是数据库里没有信息&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T153828.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=患者是张敏，今年35岁，女，家住在深圳市南山区科技园科苑路8号，联系电话13698765432。她今天（2024-05-15 09:30:17）第一次来我们医院的妇科就诊，就诊号是MZ07882405102。张敏说自己最近2个月月经周期特别不规律，有时候20天就来一次，有时候要45天，经量也时多时少，颜色偏暗，还伴有轻微的腹痛，这是她这次来医院的主要原因。她之前身体一直挺好的，没有高血压、糖尿病这些慢性病，也没做过手术或输过血，就是对芒果有点过敏，吃了会皮肤痒。这次来就诊，医生给她做了相关检查后，诊断为“月经不调（肝郁脾虚证）”，开的药是逍遥丸，每袋6克，一共开了20袋，让她每天吃2次，每次1袋，温水送服。医生还嘱咐她，平时要保持心情舒畅，别熬夜，饮食上少吃生冷和辛辣的食物，服药14天后再来医院复诊，如果期间腹痛加重或者出现其他不舒服，就及时来就诊。接诊医生是李雪梅，电子签名已经上传到医院系统，地址是https://example.com/signatures/lixuemei_20240515.png。&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T153628-1.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T153628.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=患者是张敏，今年35岁，女，家住在深圳市南山区科技园科苑路8号，联系电话13698765432。她今天（2024-05-15 09:30:17）第一次来我们医院的妇科就诊，就诊号是MZ07882405102。张敏说自己最近2个月月经周期特别不规律，有时候20天就来一次，有时候要45天，经量也时多时少，颜色偏暗，还伴有轻微的腹痛，这是她这次来医院的主要原因。
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 751
+
+她之前身体一直挺好的，没有高血压、糖尿病这些慢性病，也没做过手术或输过血，就是对芒果有点过敏，吃了会皮肤痒。这次来就诊，医生给她做了相关检查后，诊断为“月经不调（肝郁脾虚证）”，开的药是逍遥丸，每袋6克，一共开了20袋，让她每天吃2次，每次1袋，温水送服。
+
+张明医生还嘱咐她，平时要保持心情舒畅，别熬夜，饮食上少吃生冷和辛辣的食物，服药14天后再来医院复诊，如果期间腹痛加重或者出现其他不舒服，就及时来就诊。接诊医生是李雪梅，电子签名已经上传到医院系统，地址是https://example.com/signatures/lixuemei_20240515.png。
+    &
+    chatId=001
+
+<> 2025-11-22T153123.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=患者是张敏，今年35岁，女，家住在深圳市南山区科技园科苑路8号，联系电话13698765432。她今天（2024-05-15 09:30:17）第一次来我们医院的妇科就诊，就诊号是MZ07882405102。张敏说自己最近2个月月经周期特别不规律，有时候20天就来一次，有时候要45天，经量也时多时少，颜色偏暗，还伴有轻微的腹痛，这是她这次来医院的主要原因。
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 745
+
+她之前身体一直挺好的，没有高血压、糖尿病这些慢性病，也没做过手术或输过血，就是对芒果有点过敏，吃了会皮肤痒。这次来就诊，医生给她做了相关检查后，诊断为“月经不调（肝郁脾虚证）”，开的药是逍遥丸，每袋6克，一共开了20袋，让她每天吃2次，每次1袋，温水送服。
+
+医生还嘱咐她，平时要保持心情舒畅，别熬夜，饮食上少吃生冷和辛辣的食物，服药14天后再来医院复诊，如果期间腹痛加重或者出现其他不舒服，就及时来就诊。接诊医生是李雪梅，电子签名已经上传到医院系统，地址是https://example.com/signatures/lixuemei_20240515.png。
+    &
+    chatId=001
+
+<> 2025-11-22T153017.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=医生是张明医生&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T152959.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=医生是张明医生&chatId=001<> 2025-11-22T152907.200.txt
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T152926.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=好的接下来换一个患者&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T152907.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=患者是张敏，今年35岁，女，家住在深圳市南山区科技园科苑路8号，联系电话13698765432。她今天（2024-05-15 09:30:17）第一次来我们医院的妇科就诊，就诊号是MZ07882405102。张敏说自己最近2个月月经周期特别不规律，有时候20天就来一次，有时候要45天，经量也时多时少，颜色偏暗，还伴有轻微的腹痛，这是她这次来医院的主要原因。
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 745
+
+她之前身体一直挺好的，没有高血压、糖尿病这些慢性病，也没做过手术或输过血，就是对芒果有点过敏，吃了会皮肤痒。这次来就诊，医生给她做了相关检查后，诊断为“月经不调（肝郁脾虚证）”，开的药是逍遥丸，每袋6克，一共开了20袋，让她每天吃2次，每次1袋，温水送服。
+
+医生还嘱咐她，平时要保持心情舒畅，别熬夜，饮食上少吃生冷和辛辣的食物，服药14天后再来医院复诊，如果期间腹痛加重或者出现其他不舒服，就及时来就诊。接诊医生是李雪梅，电子签名已经上传到医院系统，地址是https://example.com/signatures/lixuemei_20240515.png。
+    &
+    chatId=001
+
+<> 2025-11-22T152842.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=好的接下来换一个患者&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T152826.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T152725.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=你是谁&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T152658.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=你是谁&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T152646.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=电子病历就诊号：MZ07882405101患者信息：姓名-王建国，性别-男，年龄-58岁，联系电话-13579246801，住址-广州市天河区珠江新城华穗路263号就诊信息：科室-心血管内科，就诊时间-2024-05-12 10:08:25，就诊类型-复诊病历内容：主诉：胸闷、气短1周，活动后加重现病史：患者1周前无明显诱因出现胸闷、气短，爬楼梯3层后症状加重，休息5分钟后可缓解，无胸痛、头晕、恶心呕吐。既往确诊高血压病史8年，长期口服氨氯地平片（5mg/次，1次/日），血压控制在140/90mmHg左右。本次就诊前未自行调整用药，为进一步诊治来院复诊。发病以来，精神状态一般，食欲、睡眠正常，二便规律，体重无明显变化。既往史：高血压病史8年，否认糖尿病、冠心病、脑血管疾病史，否认手术、外伤、输血史过敏史：青霉素过敏诊断结果：高血压2级（高危）；心功能不全（NYHAⅡ级）处方：1. 氨氯地平片 5mg × 30片，用法：1片/次，每日1次，口服；2. 缬沙坦胶囊 80mg × 30粒，用法：1粒/次，每日1次，口服医嘱建议：1. 低盐低脂饮食，每日盐摄入量≤5g；2. 避免剧烈运动，可适当散步（每日30分钟）；3. 规律服药，不可擅自停药；4. 监测血压（每日早晚各1次），记录数值；5. 1个月后复诊，若出现胸痛、呼吸困难及时急诊医师信息：姓名-陈丽华，电子签名URL-https://example.com/signatures/chenlihua_20240512.png&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T150332.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=你是谁&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T150128.200.txt
+
+###
+
+GET http://localhost:18080/emr/gne?msg=你是谁&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-22T143207.200.txt
+
+###
+
