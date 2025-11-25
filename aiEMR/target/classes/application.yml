@@ -3,6 +3,16 @@ server:
 
 # 配置OpenAI
 spring:
+  application:
+    name: emr-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_SERVER_ADDR:127.0.0.1:8848}
+        namespace: ${NACOS_NAMESPACE:public}
+        group: ${NACOS_GROUP:DEFAULT_GROUP}
+        username: ${NACOS_USERNAME:nacos}
+        password: ${NACOS_PASSWORD:nacos}
   ai:
     openai:
       api-key: sk-d0e06cef64f0474281f9ee93719eb4b6
@@ -25,6 +35,12 @@ mybatis-plus:
 # 日志配置
 logging:
   level:
-    root: error
-    org.springframework.ai.chat.client: error
+    root: info
+    org.springframework.ai.chat.client: info
     com.edu.neu.mapper: debug
+
+
+
+
+
+
