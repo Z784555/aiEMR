@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-11-24T16:47:49.299+00:00",
+  "path": "/emr/gne",
+  "status": 504,
+  "error": "Gateway Timeout",
+  "requestId": "4835651c-1"
+}

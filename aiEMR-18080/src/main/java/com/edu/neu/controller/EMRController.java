@@ -1,0 +1,71 @@
+package com.edu.neu.controller;
+
+import com.edu.neu.tc.DateTimeTools;
+import com.edu.neu.tc.DiagnosisTools;
+import com.edu.neu.tc.EMRTools;
+import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
+import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
+import org.springframework.ai.chat.memory.ChatMemory;
+import org.springframework.ai.openai.OpenAiChatModel;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Component;
+
+import static com.edu.neu.cfg.AIConfig.SYSTEM_PROMPT;
+
+@RestController
+
+@CrossOrigin
+public class EMRController {
+    private final ChatClient chatClient;
+    public EMRController(OpenAiChatModel  openAiChatModel,
+                         ChatMemory chatMemory,
+                         DateTimeTools dateTimeTools,
+                         EMRTools emrTools,
+                         DiagnosisTools diagnosisTools) {
+        this.chatClient = ChatClient.builder(openAiChatModel)
+                .defaultSystem(SYSTEM_PROMPT)
+                .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
+                .defaultAdvisors(new SimpleLoggerAdvisor())
+                .defaultTools(dateTimeTools)
+                .defaultTools(emrTools)
+                .defaultTools(diagnosisTools)
+                .build();
+    }
+
+    /**
+     * AI系统依据医生意图或预设诊疗规则，智能解析并执行个性化诊疗流程。
+     * 作者：
+     * 状态：未完成
+     */
+    @GetMapping("/flow")
+    public String chatFlow() {
+        return null;
+    }
+
+    /**
+     * AI大模型综合患者健康数据与处方内容，自动生成符合医学规范的诊疗记录。
+     * 作者：
+     * 状态：未完成
+     */
+    @GetMapping("/record")
+    public String chatRecord() {
+        return null;
+    }
+
+    /**
+     * 系统通过智能语义理解与结构化信息抽取，实现电子病历的自动化生成
+     * 与使用Tool Calling技术完成归档。
+     */
+    @GetMapping("/gne")
+    public String chatGne(
+            @RequestParam(value = "msg") String msg,
+            @RequestParam(value = "chatId" ,defaultValue = "neu.edu.cn") String chatId
+    ) {
+        return this.chatClient.prompt()
+                .user(msg)  // 提交给大模型的问题
+                .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, chatId))
+                .call()
+                .content();
+    }
+}

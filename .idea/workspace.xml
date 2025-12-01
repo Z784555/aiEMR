@@ -4,23 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cd53c66-f25a-4852-b32d-7cf41bf533cc" name="更改" comment="合并分支">
-      <change afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/MyMetaObjectHandler.java" afterDir="false" />
+    <list default="true" id="5cd53c66-f25a-4852-b32d-7cf41bf533cc" name="更改" comment="微服务：调用诊断子系统">
+      <change afterPath="$PROJECT_DIR$/aiEMR-18080/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/entity/Diagnosis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/mapper/DiagnosisMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/service/DiagnosisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/service/impl/DiagnosisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/tc/DiagnosisTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/aiEMRApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/java/com/edu/neu/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/java/com/edu/neu/controller/DiagnosisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/java/com/edu/neu/entity/Diagnosis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/java/com/edu/neu/mapper/DiagnosisMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/java/com/edu/neu/service/DiagnosisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/java/com/edu/neu/service/impl/DiagnosisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/target/test-classes/com/edu/neu/aiEMRAppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2025_11_20_19_13____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_11_20_19_13_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/controller/EMRController.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/controller/EMRController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/entity/EMR.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/entity/EMR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/tc/EMRTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/tc/EMRTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/cfg/AIConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/cfg/AIConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/controller/EMRController.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/controller/EMRController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/entity/EMR.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/entity/EMR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/mapper/EMRMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/mapper/EMRMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/EMRService.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/EMRService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/impl/EMRServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/impl/EMRServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/DateTimeTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/DateTimeTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/EMRTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/EMRTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/aiEMR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/aiEMR-18080.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/aiEMRApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/aiEMRApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/AIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/cfg/AIConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/cfg/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/cfg/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/controller/EMRController.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/controller/EMRController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/entity/EMR.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/entity/EMR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/mapper/EMRMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/mapper/EMRMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/EMRService.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/service/EMRService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/PromptTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/service/PromptTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/service/impl/EMRServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/service/impl/EMRServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/tc/DateTimeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/tc/DateTimeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/tc/DiagnosisTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis-receiver-service-19090/src/main/java/com/edu/neu/tc/DiagnosisTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/java/com/edu/neu/tc/EMRTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/java/com/edu/neu/tc/EMRTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/src/test/java/com/edu/neu/aiEMRAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/src/test/java/com/edu/neu/aiEMRAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/aiEMRApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/cfg/AIConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/cfg/AIConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/cfg/MyMetaObjectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/cfg/MyMetaObjectHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/controller/EMRController.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/controller/EMRController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/entity/EMR.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/entity/EMR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/mapper/EMRMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/mapper/EMRMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/EMRService.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/service/EMRService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/PromptTemplateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/service/PromptTemplateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/service/impl/EMRServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/service/impl/EMRServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/DateTimeTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/tc/DateTimeTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/classes/com/edu/neu/tc/EMRTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/classes/com/edu/neu/tc/EMRTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiEMR/target/test-classes/com/edu/neu/aiEMRAppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/aiEMR-18080/target/test-classes/com/edu/neu/aiEMRAppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-9000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/edu/neu/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-9000/src/main/java/com/edu/neu/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/edu/neu/gateway/config/GatewayRoutesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-9000/src/main/java/com/edu/neu/gateway/config/GatewayRoutesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/edu/neu/gateway/filter/RequestLoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-9000/src/main/java/com/edu/neu/gateway/filter/RequestLoggingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-9000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-9000/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +74,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +98,9 @@
   &quot;isOnboardingCommentShown&quot;: true
 }</component>
   <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -73,6 +121,8 @@
     &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
     &quot;HTTP 请求.generated-requests | #2.executor&quot;: &quot;Run&quot;,
     &quot;HTTP 请求.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #8.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
@@ -81,46 +131,101 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.App (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.App.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.aiEMRApp.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/neu/Java/Projects/MySpringAI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.App.executor&quot;: &quot;Run&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\neu\Java\Projects\MySpringAI" />
+    </key>
+  </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="configurationStatuses">
       <map>
-        <entry key="HttpClient.HttpRequestRunConfigurationType">
+        <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="generated-requests | #1" value="STOPPED" />
-              <entry key="generated-requests | #2" value="STOPPED" />
-              <entry key="generated-requests | #3" value="STOPPED" />
+              <entry key="App" value="STOPPED" />
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="aiEMRApp" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.aiEMRApp">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="运行单个请求">
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#7" index="7" runType="运行单个请求">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2" runType="运行单个请求">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="aiEMR-18080" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="aiEMR-18080" />
+      <option name="filePath" />
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#3" index="3" runType="运行单个请求">
-      <method v="2" />
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="diagnosis-receiver-service-19090" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.neu.App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.neu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-9000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.neu.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.edu.neu.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="aiEMRApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="aiEMR" />
+      <module name="aiEMR-18080" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.neu.aiEMRApp" />
       <extension name="coverage">
         <pattern>
@@ -132,12 +237,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP 请求.generated-requests | #7" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.aiEMRApp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP 请求.generated-requests | #1" />
-        <item itemvalue="HTTP 请求.generated-requests | #2" />
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="Spring Boot.aiEMRApp" />
-        <item itemvalue="HTTP 请求.generated-requests | #3" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="HTTP 请求.generated-requests | #7" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +275,15 @@
       <workItem from="1763634025519" duration="10988000" />
       <workItem from="1763721956276" duration="16452000" />
       <workItem from="1763887097785" duration="17811000" />
+      <workItem from="1763973682745" duration="8345000" />
+      <workItem from="1764001480496" duration="2210000" />
+      <workItem from="1764043673402" duration="28353000" />
+      <workItem from="1764169486502" duration="5091000" />
+      <workItem from="1764211136641" duration="23297000" />
+      <workItem from="1764327944758" duration="272000" />
+      <workItem from="1764328366846" duration="66000" />
+      <workItem from="1764328743388" duration="3240000" />
+      <workItem from="1764595794747" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="README.txt">
       <option name="closed" value="true" />
@@ -213,7 +333,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763723796757</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Toolcalling完成">
+      <option name="closed" value="true" />
+      <created>1763973816861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763973816861</updated>
+    </task>
+    <task id="LOCAL-00008" summary="微服务：调用诊断子系统">
+      <option name="closed" value="true" />
+      <created>1764061925565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764061925566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +385,8 @@
     <MESSAGE value="构造方法" />
     <MESSAGE value="EMRTools" />
     <MESSAGE value="合并分支" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并分支" />
+    <MESSAGE value="Toolcalling完成" />
+    <MESSAGE value="微服务：调用诊断子系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="微服务：调用诊断子系统" />
   </component>
 </project>

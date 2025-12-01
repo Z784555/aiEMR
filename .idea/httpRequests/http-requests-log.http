@@ -1,3 +1,43 @@
+GET http://localhost:19090/gne?msg=Bpg3gPN6&chatId=YbhBL5BS
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T235448.200.txt
+
+###
+
+POST http://localhost:19090/api/diagnosis/receive
+Content-Type: application/json
+Content-Length: 32
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+"这是一个测试诊断记录"
+
+<> 2025-11-25T205037.200.json
+
+###
+
+GET http://localhost:9000/emr/gne?msg=新建病历。患者叫张小宝，男孩，今年5岁半。今天早上因为发烧和咳嗽来看病，体温38度5。家长说孩子从昨天晚上开始不舒服，有点流鼻涕，精神状态一般，胃口也不好。没有呼吸困难。既往体健，没有过敏史。我是他的接诊医生，王芳。&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T005722.200.txt
+
+###
+
+GET http://localhost:9000/emr/gne?msg=新建病历。患者叫张小宝，男孩，今年5岁半。今天早上因为发烧和咳嗽来看病，体温38度5。家长说孩子从昨天晚上开始不舒服，有点流鼻涕，精神状态一般，胃口也不好。没有呼吸困难。既往体健，没有过敏史。我是他的接诊医生，王芳。&chatId=001
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T004749.504.json
+
+###
+
 GET http://localhost:19090/emr/gne?msg=保存&chatId=001
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.4
 Accept-Encoding: br, deflate, gzip, x-gzip

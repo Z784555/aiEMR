@@ -1,0 +1,22 @@
+{
+  "id": "",
+  "patientName": "张小宝",
+  "gender": "男",
+  "age": "5",
+  "phone": "",
+  "address": "",
+  "visitNo": "",
+  "deptName": "",
+  "visitTime": "",
+  "visitType": "",
+  "mainComplaint": "发烧和咳嗽1天，体温38.5℃",
+  "presentIllness": "患儿从昨天晚上开始出现不适，伴有流鼻涕，精神状态一般，胃口不佳，无呼吸困难",
+  "pastIllness": "既往体健",
+  "allergyHistory": "无",
+  "diagnosis": "",
+  "prescription": "",
+  "suggestion": "",
+  "doctorName": "王芳",
+  "signatureUrl": "",
+  "reply": "已记录患者基本信息：张小宝，男，5岁。主诉为发烧和咳嗽1天，体温38.5℃。现病史：从昨晚开始不适，流鼻涕，精神状态一般，胃口不佳，无呼吸困难。既往史：体健。过敏史：无。医师：王芳。请补充以下必填信息：就诊号、就诊科室、就诊时间、就诊类型（初诊/复诊）。"
+}

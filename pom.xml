@@ -12,8 +12,9 @@
     <name>MySpringAI</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>aiEMR</module>
-        <module>gateway</module>
+        <module>aiEMR-18080</module>
+        <module>diagnosis-receiver-service-19090</module>
+        <module>gateway-9000</module>
     </modules>
 
     <properties>
@@ -65,5 +66,25 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>3.0.5</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-commons</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

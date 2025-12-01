@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aiEMR/aiEMR.iml" filepath="$PROJECT_DIR$/aiEMR/aiEMR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aiEMR/aiEMR-18080.iml" filepath="$PROJECT_DIR$/aiEMR/aiEMR-18080.iml" />
     </modules>
   </component>
 </project>

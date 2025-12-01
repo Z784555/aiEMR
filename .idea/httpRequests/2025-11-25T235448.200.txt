@@ -1,0 +1,22 @@
+{
+  "id": "",
+  "patientName": "",
+  "gender": "",
+  "age": "",
+  "phone": "",
+  "address": "",
+  "visitNo": "",
+  "deptName": "",
+  "visitTime": "",
+  "visitType": "",
+  "mainComplaint": "",
+  "presentIllness": "",
+  "pastIllness": "",
+  "allergyHistory": "",
+  "diagnosis": "",
+  "prescription": "",
+  "suggestion": "",
+  "doctorName": "",
+  "signatureUrl": "",
+  "reply": "您好！我注意到您输入了'Bpg3gPN6'，这看起来像是一个病历ID或代码。为了帮您处理电子病历，我需要更多信息。请提供患者的基本信息，如：患者姓名、性别、年龄、就诊号、就诊科室、就诊时间、就诊类型、主诉和医师姓名。如果您是要修改现有病历，请提供完整的病历信息。"
+}

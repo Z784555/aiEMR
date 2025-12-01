@@ -1,0 +1,46 @@
+server:
+  port: 18080
+
+# 配置OpenAI
+spring:
+  application:
+    name: emr-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_SERVER_ADDR:127.0.0.1:8848}
+        namespace: ${NACOS_NAMESPACE:public}
+        group: ${NACOS_GROUP:DEFAULT_GROUP}
+        username: ${NACOS_USERNAME:nacos}
+        password: ${NACOS_PASSWORD:nacos}
+  ai:
+    openai:
+      api-key: sk-d0e06cef64f0474281f9ee93719eb4b6
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          temperature: 0.8
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aihis?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  type-aliases-package: com.edu.neu.entity
+  mapper-locations: classpath*:mapper/*.xml
+
+# 日志配置
+logging:
+  level:
+    root: info
+    org.springframework.ai.chat.client: info
+    com.edu.neu.mapper: debug
+
+
+
+
+
+
