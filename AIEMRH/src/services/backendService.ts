@@ -15,18 +15,19 @@ async function requestEmr(
   chatId?: string,
 ): Promise<string> {
   const endpoint = buildEndpoint(path)
-  const params: Record<string, string> = {}
-  if (input) params[paramName] = input
-  if (chatId) params['chatId'] = chatId
-  const url = Object.keys(params).length
-    ? `${endpoint}?${new URLSearchParams(params).toString()}`
-    : endpoint
-  const response = await fetch(url, {
-    method: 'GET',
+  // 构建请求体数据（不再拼到URL）
+  const requestBody: Record<string, string> = {}
+  if (input) requestBody[paramName] = input
+  if (chatId) requestBody['chatId'] = chatId
+
+  const response = await fetch(endpoint, {
+    method: 'POST', // 改为POST请求
     headers: {
       Accept: 'application/json, text/plain',
+      'Content-Type': 'application/json', // 新增：指定请求体为JSON格式
     },
     mode: 'cors',
+    body: JSON.stringify(requestBody), // 数据放入请求体，转为JSON字符串
   })
 
   if (!response.ok) {

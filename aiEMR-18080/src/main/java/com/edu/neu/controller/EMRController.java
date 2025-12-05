@@ -11,11 +11,11 @@ import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Component;
 
+import java.util.Map;
+
 import static com.edu.neu.cfg.AIConfig.SYSTEM_PROMPT;
 
 @RestController
-
-@CrossOrigin
 public class EMRController {
     private final ChatClient chatClient;
     public EMRController(OpenAiChatModel  openAiChatModel,
@@ -57,13 +57,17 @@ public class EMRController {
      * 系统通过智能语义理解与结构化信息抽取，实现电子病历的自动化生成
      * 与使用Tool Calling技术完成归档。
      */
-    @GetMapping("/gne")
+    @PostMapping("/gne")
     public String chatGne(
-            @RequestParam(value = "msg") String msg,
-            @RequestParam(value = "chatId" ,defaultValue = "neu.edu.cn") String chatId
+            @RequestBody Map<String, String> requestBody // 接收前端请求体
     ) {
+        // 从请求体获取参数（与前端请求体字段对应）
+        String msg = requestBody.get("msg");
+        // chatId 可选，默认值 neu.edu.cn
+        String chatId = requestBody.getOrDefault("chatId", "neu.edu.cn");
+
         return this.chatClient.prompt()
-                .user(msg)  // 提交给大模型的问题
+                .user(msg)
                 .advisors(a -> a.param(ChatMemory.CONVERSATION_ID, chatId))
                 .call()
                 .content();
